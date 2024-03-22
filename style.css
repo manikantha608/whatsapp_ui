@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wa{
+    border: 5px solid;
+    height: 95vh;
+    width: 400px;
+    background-color: white;
+    margin: 20px auto;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 30px;
+}
+.header{
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #00a884;
+}
+ .header1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.header .header_icons{
+    display: flex;
+    /* padding-left: 5px; */
+    /* border: 1px solid;
+    justify-content: space-between; */
+}
+.header .header_icons p{
+    padding-left: 25px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* align-items: flex-end; */
+}
+.header ul li{
+    list-style-type: none;
+    
+    /* border: 2px solid; */
+    
+}
+.header ul li a{
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.header ul li a:hover{
+    border-bottom: 4px solid;
+    border-radius:3px ;
+    color: aliceblue;
+}
+.header1 .left_arrow{
+    /* padding: 10px; */
+    padding-right: 5px;
+    margin: 20px 5px 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.header1 .whatsapp{
+    font-size: 20px;
+}
+.header1 .bala{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+.header1 .chat_name{
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.header1 .chat_name span{
+    font-size: 15px;
+}
+.body{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px;
+    width: 500px;
+}
+.body:hover{
+    background-color: rgb(160, 164, 160);
+    cursor: pointer;
+}
+.body img{
+    width: 55px;
+    border-radius: 50%;
+
+}
+.body .chat{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chat .person{
+    font-size: 19px;
+}
+.chat .message{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(98, 100, 102);
+}
+.body .dots{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+a:hover{
+    color: black;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: black;
+}
+.big_body .side_heading{
+   font-size: 17px;
+   font-weight: 500px;
+   margin-left: 18px;
+}
+.big_body .status{
+    border: 4px solid rgb(160, 164, 160);
+}
+.big_body .green{
+    border: 4px solid #00a884;
+}
+/* .wa{
+    background-image: url("./assets/wa_wallpaper.jpg");
+    
+}  */
+.big_body a{
+    text-decoration: none;
+}
+ .bgm .days span{
+    margin-left: 150px;
+    background-color: rgb(135, 136, 137);
+    padding: 9px;
+    border-radius: 9px;
+    font-size: 14px;
+ }
+ .bgm .days{
+    position: sticky;
+    top: 90px;
+ }
+ .bgm .fri{
+    padding: 0px 10px;
+ }
+ .mon{
+    margin-top: 25px;
+ }
+ .mon p{
+    margin-left: 10px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    padding: 10px;
+ }
+ 
+ .mon .rightside{
+    margin-left: 160px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00a884;
+ }
+ .bgm .mon .leftside{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0px 7px 7px;
+    background-color: rgb(205, 204, 202);
+ }
+ .mon sub{
+    margin-top: 10px;
+ }
+
+
+.wa::-webkit-scrollbar {
+    display: none;
+}
